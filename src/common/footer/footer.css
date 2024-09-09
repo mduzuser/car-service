@@ -30,6 +30,16 @@
     position: relative;
   }
 }
+@media (min-width: 480px) and (max-width: 768px) {
+  .footerFormBg .footerForm__form {
+    position: relative;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footerFormBg .footerForm__form {
+    position: relative;
+  }
+}
 .footerFormBg .form {
   width: 400px;
   max-width: 400px;
@@ -38,6 +48,18 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .footerFormBg .form {
     width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .footerFormBg .form {
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footerFormBg .form {
+    width: 100%;
+    max-width: none;
   }
 }
 .footerFormBg .form .form__input-name {
@@ -108,7 +130,7 @@
   padding: 20px 40px;
   border-radius: 10px;
   background: #F0F0FA;
-  color: #8C8C8C;
+  color: #8c8c8c;
   border: none;
   font-size: 16px;
   font-weight: 600;
@@ -144,9 +166,60 @@
   width: 100%;
   height: auto;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footerFormBg .footerForm__img img {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .footerFormBg .footerForm__img img {
+    width: 50%;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1920px) {
+  .footerFormBg .footerForm__img img {
+    width: 40%;
+  }
+}
+@media (min-width: 1920px) {
+  .footerFormBg .footerForm__img img {
+    width: 30%;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .footerFormBg .footerForm__img {
     padding: 0px 10px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .footerFormBg .footerForm__img {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .footerFormBg .footerForm__img {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footerFormBg .footerForm__img {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .footerFormBg .footerForm__img {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1920px) {
+  .footerFormBg .footerForm__img {
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1920px) {
+  .footerFormBg .footerForm__img {
+    padding: 100px 0;
   }
 }
 
@@ -165,6 +238,12 @@
   justify-content: space-between;
   margin-bottom: 50px;
   flex-wrap: wrap;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerBg .footer__boxes {
+    display: block;
+    padding-left: 10px;
+  }
 }
 .footerBg .footer__boxes li {
   margin-bottom: 30px;
@@ -187,6 +266,10 @@
   color: #ffffff;
   font-size: 40px;
   margin-bottom: 20px;
+  transition: 0.3s;
+}
+.footerBg .footer__boxes svg:hover {
+  color: #3579F4;
 }
 .footerBg .footer__boxes .footer__email {
   font-size: 20px;

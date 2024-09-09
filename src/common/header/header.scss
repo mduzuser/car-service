@@ -6,6 +6,7 @@
 }
 
 .activeNav{
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -262,8 +263,8 @@
   }
 
   .navbar__bars{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -279,8 +280,8 @@
     }
 
     .navbar__bar{
-      width: 15px;
-      height: 15px;
+      width: 12px;
+      height: 12px;
       background: none;
       border-radius: 50%;
       border: 2px solid $primary-color;

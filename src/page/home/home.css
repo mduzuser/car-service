@@ -485,7 +485,7 @@
   color: #18162D;
 }
 .section4 .section4__boxes {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -493,6 +493,12 @@
 }
 .section4 .section4__box {
   margin-bottom: 30px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .section4__box {
+    display: flex;
+    gap: 20px;
+  }
 }
 .section4 .section4__box .section4__box-circle {
   height: 130px;
@@ -506,19 +512,36 @@
   background: #ffffff;
   position: relative;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .section4__box .section4__box-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
 .section4 .section4__box .section4__box-title {
   font-size: 24px;
   font-weight: 500;
   color: #18162D;
   margin-top: 20px;
-  width: 270px;
+  max-width: 270px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .section4__box .section4__box-title {
+    width: 200px;
+  }
 }
 .section4 .section4__box .section4__box-info {
   font-size: 16px;
   font-weight: 400;
   color: #18162D;
   width: 270px;
+  min-width: 270px;
   margin-top: 50px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .section4__box .section4__box-info {
+    width: 150px;
+  }
 }
 .section4 .border {
   height: 2px;
@@ -527,6 +550,13 @@
   position: absolute;
   z-index: -1;
   left: 0;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section4 .border {
+    left: 50%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .section4 .border {
