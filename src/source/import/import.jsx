@@ -36,7 +36,7 @@ export {default as SvgImg3} from "../img/delivery-truck (1) 1.svg"
 export {default as SvgImg4} from "../img/packages 1.svg"
 export {default as FooterImg} from '../img/footer-img.png'
 export {default as LogoF} from '../img/logo2.png'
-
+export {default as BarImg} from '../img/Group 109.png'
 //video
 
 export {default as VideoPlayer} from '../video/video.mp4'

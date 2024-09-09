@@ -497,7 +497,7 @@
   }
 
   .section4__boxes {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -532,12 +532,17 @@
       }
     }
 
+
     .section4__box-title {
       font-size: 24px;
       font-weight: 500;
       color: $secondary-color;
       margin-top: 20px;
-      width: 270px;
+      max-width: 270px;
+      
+      @media (min-width: 320px) and (max-width: 480px) {
+        width: 200px;
+      }
     }
 
     .section4__box-info {
@@ -545,7 +550,13 @@
       font-weight: 400;
       color: $secondary-color;
       width: 270px;
+      min-width: 270px;
       margin-top: 50px;
+      border: 2px solid red;
+
+      @media (min-width: 320px) and (max-width: 480px) {
+        width: 150px;
+      }
     }
   }
 
