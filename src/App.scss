@@ -1,0 +1,29 @@
+@import './source/color/color.scss';
+.up{
+    width: 50px;
+    height: 50px;
+    background: $primary-color;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition:  all 1s;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 99;
+    right: 20px;
+    bottom: 100px;
+
+    p{
+        font-size: 16px;
+        font-weight: 700;
+        color: $color-white;
+    }
+}
+
+.upHidden{
+    display: none;
+}

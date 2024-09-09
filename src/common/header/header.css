@@ -1,0 +1,256 @@
+.header {
+  width: 100%;
+  background: #ffffff;
+}
+
+.activeNav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 9999;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Yopilganda ekrandan tashqarida */
+  width: 100%;
+  height: 100%;
+  color: white;
+  transition: 0.3s;
+  z-index: 1000;
+  display: flex;
+}
+.sidebar .sidebar__main {
+  width: 80%;
+  padding: 30px;
+  background: #ffffff;
+}
+.sidebar .sidebar__main ul {
+  margin-top: 10%;
+}
+.sidebar .sidebar__main li {
+  margin-bottom: 30px;
+}
+.sidebar .sidebar__main a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #18162D;
+}
+.sidebar .sidebar__main a.active {
+  color: #3579F4;
+}
+.sidebar .sidebar__main .sidebar__social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+}
+.sidebar .sidebar__main .sidebar__social-media {
+  width: 42px;
+  height: 42px;
+  background: #3579F4;
+  border-radius: 3px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .sidebar__main .sidebar__social-media:hover {
+  opacity: 60%;
+}
+.sidebar .sidebar__main svg {
+  color: #ffffff;
+}
+.sidebar .sidebar__main .sidebar__email {
+  font-size: 22px;
+  font-weight: 600;
+  color: #18162D;
+}
+.sidebar .sidebar__main .sidebar__num {
+  font-size: 22px;
+  font-weight: 600;
+  color: #18162D;
+  margin-top: 20px;
+}
+.sidebar .sidebar__main .sidebar__langs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.sidebar .sidebar__main .sidebar__langs p {
+  color: #18162D;
+  font-size: 20px;
+}
+.sidebar .sidebar__main button {
+  font-size: 18px;
+  font-weight: 400;
+  color: #18162D;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.sidebar .sidebar__main .blue {
+  color: #3579F4;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .sidebar .sidebar__logo img {
+    width: 90%;
+  }
+}
+.sidebar .sidebar__close {
+  width: 20%;
+  text-align: center;
+  background: rgba(24, 22, 45, 0.8);
+}
+.sidebar .sidebar__close button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.sidebar .sidebar__close svg {
+  font-size: 70px;
+  color: #3579F4;
+}
+
+.sidebar.open {
+  left: 0; /* Chap tomondan chiqadi */
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.navbar .navbar__logo img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar .navbar__logo {
+    width: 50%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar .navbar__logo {
+    width: 40%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar .navbar__menu {
+    display: none;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar .navbar__menu {
+    display: none;
+  }
+}
+.navbar .navbar__menu ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar__menu li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #18162D;
+  cursor: pointer;
+}
+.navbar .navbar__social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar .navbar__social {
+    display: none;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar .navbar__social {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 920px) {
+  .navbar .navbar__social {
+    display: none;
+  }
+}
+.navbar .navbar__social .navbar__social-media {
+  width: 41px;
+  height: 41px;
+  border-radius: 3px;
+  background: #3579F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.navbar .navbar__social .navbar__social-media:hover {
+  opacity: 70%;
+}
+.navbar .navbar__social svg {
+  font-size: 25px;
+  color: #ffffff;
+}
+.navbar .navbar__langs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .navbar__langs button {
+  font-size: 18px;
+  font-weight: 400;
+  color: #18162D;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar .navbar__langs button {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar .navbar__langs {
+    font-size: 24px;
+  }
+}
+.navbar .navbar__langs .blue {
+  color: #3579F4;
+}
+.navbar .navbar__bars {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 920px) {
+  .navbar .navbar__bars {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .navbar .navbar__bars {
+    display: none;
+  }
+}
+.navbar .navbar__bars .navbar__bar {
+  width: 15px;
+  height: 15px;
+  background: none;
+  border-radius: 50%;
+  border: 2px solid #3579F4;
+}/*# sourceMappingURL=header.css.map */

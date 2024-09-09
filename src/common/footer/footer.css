@@ -1,0 +1,212 @@
+@charset "UTF-8";
+.footerFormBg {
+  width: 100%;
+  height: auto;
+  background: #3579F4;
+  padding: 100px 0;
+  margin-top: 100px;
+}
+.footerFormBg .footerForm {
+  width: 100%;
+  position: relative;
+}
+.footerFormBg .footerForm .footerForm__form-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footerFormBg .footerForm .footerForm__form-info {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9019607843);
+  width: 310px;
+  margin: 20px 0;
+}
+.footerFormBg .footerForm__form {
+  position: absolute;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerFormBg .footerForm__form {
+    position: relative;
+  }
+}
+.footerFormBg .form {
+  width: 400px;
+  max-width: 400px;
+  background: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerFormBg .form {
+    width: 100%;
+  }
+}
+.footerFormBg .form .form__input-name {
+  width: 100%;
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  background: #5591ff;
+  outline: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form input::-moz-placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form input::placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form input[type=number]::-webkit-outer-spin-button,
+.footerFormBg .form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.footerFormBg .form .form__input-number {
+  width: 100%;
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  background: #5591ff;
+  outline: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+  margin: 15px 0;
+}
+.footerFormBg .form .form__input-message {
+  width: 100%;
+  height: 100px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  background: #5591ff;
+  outline: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form .input__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+.footerFormBg .form p {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form span {
+  text-decoration: underline;
+}
+.footerFormBg .form .form__input-submit {
+  width: 100%;
+  height: 60px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background: #F0F0FA;
+  color: #8C8C8C;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s;
+}
+.footerFormBg .form .form__input-submit:hover {
+  color: #3579F4;
+  opacity: 60%;
+}
+.footerFormBg .form input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.footerFormBg .form input[type=checkbox]:checked::before {
+  content: "✔";
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.footerFormBg .footerForm__img {
+  width: 100%;
+  text-align: right;
+}
+.footerFormBg .footerForm__img img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerFormBg .footerForm__img {
+    padding: 0px 10px;
+  }
+}
+
+.footerBg {
+  width: 100%;
+  height: auto;
+  background: #18162D;
+  padding: 50px 0;
+}
+.footerBg .footer {
+  width: 100%;
+  position: relative;
+}
+.footerBg .footer__boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.footerBg .footer__boxes li {
+  margin-bottom: 30px;
+}
+.footerBg .footer__boxes li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.footerBg .footer__boxes li a:hover {
+  color: #3579F4;
+}
+.footerBg .footer__boxes .footer__social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footerBg .footer__boxes svg {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.footerBg .footer__boxes .footer__email {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footerBg .footer__boxes .footer__num {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 20px 0;
+}
+.footerBg .footer__boxes .footer__address {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 252px;
+}
+.footerBg .footer__copy {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}/*# sourceMappingURL=footer.css.map */
