@@ -4,15 +4,38 @@
   width: 100%;
   margin-top: 100px;
 
+  @media (min-width: 320px) and (max-width: 480px) {
+   margin-top: 10px;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    margin-top: 30px;
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+   margin-top: 30px;
+  }
+
+
   .mainService__title {
     font-size: 54px;
     font-weight: 500;
     color: $secondary-color;
     margin-bottom: 50px;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      font-size: 38px;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      font-size: 46px;
+    }
   }
+
 
   .mainService__box {
     display: flex;
+    justify-content: space-between;
     gap: 25px;
     flex-wrap: wrap;
   }
@@ -20,8 +43,6 @@
   .mainService1 {
     width: 260px;
     height: 250px;
-    max-width: 260px;
-    max-height: 250px;
     box-shadow: -4px 4px 16px 0px #0000001a;
     background: $color-white;
     padding: 25px;
@@ -31,6 +52,18 @@
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      width: 47%;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      width: 47%;
+    }
 
     &:hover {
       transform: scale(1.05);
@@ -48,8 +81,6 @@
   .mainService2 {
     width: 260px;
     height: 250px;
-    max-width: 260px;
-    max-height: 250px;
     box-shadow: -4px 4px 16px 0px #0000001a;
     background: $color-white;
     padding: 25px;
@@ -59,6 +90,19 @@
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      width: 47%;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      width: 47%;
+    }
+
 
     &:hover {
       transform: scale(1.05);
@@ -74,8 +118,8 @@
   }
 
   .mainService3 {
-    flex-grow: 1; /* Element joyni to'ldirish uchun o'sadi */
-    min-width: 260px; /* Minimal kenglikni belgilang */
+    flex-grow: 1; 
+    width: 260px; 
     height: 250px;
     box-shadow: -4px 4px 16px 0px #0000001a;
     background: $color-white;
@@ -86,6 +130,11 @@
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+      flex: none;
+    }
 
     &:hover {
       transform: scale(1.05);
@@ -114,6 +163,23 @@
     cursor: pointer;
     transition: 0.3s;
 
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+      flex: none;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      flex: none;
+      width: 100%;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      flex: none;
+      width: 100%;
+    }
+
+
+
     &:hover {
       transform: scale(1.05);
       box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
@@ -130,8 +196,6 @@
   .mainService2a {
     width: 260px;
     height: 250px;
-    max-width: 260px;
-    max-height: 250px;
     box-shadow: -4px 4px 16px 0px #0000001a;
     background: $color-white;
     padding: 25px;
@@ -141,6 +205,20 @@
     overflow: hidden;
     cursor: pointer;
     transition: 0.3s;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      width: 47%;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      width: 47%;
+    }
+
+
 
     &:hover {
       transform: scale(1.05);
@@ -158,8 +236,6 @@
   .mainService3a {
     width: 260px;
     height: 250px;
-    max-width: 260px;
-    max-height: 250px;
     box-shadow: -4px 4px 16px 0px #0000001a;
     background: $color-white;
     padding: 25px;
@@ -170,6 +246,20 @@
     background: $primary-color;
     cursor: pointer;
     transition: 0.3s;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+    }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      width: 47%;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      width: 47%;
+    }
+
+
 
     &:hover {
       transform: scale(1.05);
@@ -206,6 +296,19 @@
         font-weight: 600;
         color: $primary-color;
         text-transform: uppercase;
+
+        @media (min-width: 320px) and (max-width: 480px) {
+          margin-bottom: 20px;
+        }
+
+        @media (min-width: 480px) and (max-width: 768px) {
+          margin-bottom: 30px;
+        }
+    
+        @media (min-width: 768px) and (max-width: 992px) {
+          margin-bottom: 30px;
+        }
+    
     }
   }
 

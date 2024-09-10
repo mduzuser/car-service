@@ -2,22 +2,46 @@
   width: 100%;
   margin-top: 100px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService {
+    margin-top: 30px;
+  }
+}
 .mainService .mainService__title {
   font-size: 54px;
   font-weight: 500;
   color: #18162D;
   margin-bottom: 50px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService__title {
+    font-size: 38px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService__title {
+    font-size: 46px;
+  }
+}
 .mainService .mainService__box {
   display: flex;
+  justify-content: space-between;
   gap: 25px;
   flex-wrap: wrap;
 }
 .mainService .mainService1 {
   width: 260px;
   height: 250px;
-  max-width: 260px;
-  max-height: 250px;
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
   background: #ffffff;
   padding: 25px;
@@ -27,6 +51,21 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService1 {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService1 {
+    width: 47%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService1 {
+    width: 47%;
+  }
 }
 .mainService .mainService1:hover {
   transform: scale(1.05);
@@ -41,8 +80,6 @@
 .mainService .mainService2 {
   width: 260px;
   height: 250px;
-  max-width: 260px;
-  max-height: 250px;
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
   background: #ffffff;
   padding: 25px;
@@ -52,6 +89,21 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService2 {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService2 {
+    width: 47%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService2 {
+    width: 47%;
+  }
 }
 .mainService .mainService2:hover {
   transform: scale(1.05);
@@ -64,8 +116,8 @@
   top: 0;
 }
 .mainService .mainService3 {
-  flex-grow: 1; /* Element joyni to'ldirish uchun o'sadi */
-  min-width: 260px; /* Minimal kenglikni belgilang */
+  flex-grow: 1;
+  width: 260px;
   height: 250px;
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
   background: #ffffff;
@@ -76,6 +128,12 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService3 {
+    width: 100%;
+    flex: none;
+  }
 }
 .mainService .mainService3:hover {
   transform: scale(1.05);
@@ -101,6 +159,24 @@
   cursor: pointer;
   transition: 0.3s;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService1a {
+    width: 100%;
+    flex: none;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService1a {
+    flex: none;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService1a {
+    flex: none;
+    width: 100%;
+  }
+}
 .mainService .mainService1a:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
@@ -114,8 +190,6 @@
 .mainService .mainService2a {
   width: 260px;
   height: 250px;
-  max-width: 260px;
-  max-height: 250px;
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
   background: #ffffff;
   padding: 25px;
@@ -125,6 +199,21 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService2a {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService2a {
+    width: 47%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService2a {
+    width: 47%;
+  }
 }
 .mainService .mainService2a:hover {
   transform: scale(1.05);
@@ -139,8 +228,6 @@
 .mainService .mainService3a {
   width: 260px;
   height: 250px;
-  max-width: 260px;
-  max-height: 250px;
   box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
   background: #ffffff;
   padding: 25px;
@@ -151,6 +238,21 @@
   background: #3579F4;
   cursor: pointer;
   transition: 0.3s;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService3a {
+    width: 100%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService3a {
+    width: 47%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService3a {
+    width: 47%;
+  }
 }
 .mainService .mainService3a:hover {
   transform: scale(1.05);
@@ -181,6 +283,21 @@
   font-weight: 600;
   color: #3579F4;
   text-transform: uppercase;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .mainService .mainService__q p {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .mainService .mainService__q p {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mainService .mainService__q p {
+    margin-bottom: 30px;
+  }
 }
 .mainService .mainService__r {
   width: 540px;

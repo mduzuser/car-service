@@ -26,6 +26,10 @@ export {default as Service7} from '../../page/service/Service7'
 export {default as Service8} from '../../page/service/Service8'
 export {default as Service9} from '../../page/service/Service9'
 
+export {default as Service1A} from '../../page/service/Service1A'
+export {default as Service1B} from '../../page/service/Service1b'
+export {default as Service1C} from '../../page/service/Service1C'
+
 
 //images
 export {default as Logo} from '../img/logo.png'
