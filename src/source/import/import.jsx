@@ -14,6 +14,17 @@ export {default as Section2} from '../../page/home/Section2'
 export {default as Section3} from '../../page/home/Section3'
 export {default as Section4} from '../../page/home/Section4'
 
+// services
+export {default as MainService} from '../../page/service/MainService'
+export {default as Service1} from '../../page/service/Service1'
+export {default as Service2} from '../../page/service/Service2'
+export {default as Service3} from '../../page/service/Service3'
+export {default as Service4} from '../../page/service/Service4'
+export {default as Service5} from '../../page/service/Service5'
+export {default as Service6} from '../../page/service/Service6'
+export {default as Service7} from '../../page/service/Service7'
+export {default as Service8} from '../../page/service/Service8'
+export {default as Service9} from '../../page/service/Service9'
 
 
 //images
@@ -44,4 +55,5 @@ export {default as VideoPlayer} from '../video/video.mp4'
 // loader
 
 export {default as LoaderSvg} from '../img/loaderSvg.svg'
+export {default as Geer} from '../img/geer.svg'
 

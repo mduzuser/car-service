@@ -492,12 +492,11 @@
   margin-top: 50px;
 }
 .section4 .section4__box {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .section4 .section4__box {
     display: flex;
-    gap: 20px;
   }
 }
 .section4 .section4__box .section4__box-circle {
@@ -527,7 +526,10 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .section4 .section4__box .section4__box-title {
+    font-size: 16px;
+    font-weight: 700;
     width: 200px;
+    margin-left: 10px;
   }
 }
 .section4 .section4__box .section4__box-info {
@@ -538,9 +540,11 @@
   min-width: 270px;
   margin-top: 50px;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   .section4 .section4__box .section4__box-info {
-    width: 150px;
+    font-weight: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
 }
 .section4 .border {

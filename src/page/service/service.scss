@@ -1,0 +1,224 @@
+@import "../../source/color/color.scss";
+
+.mainService {
+  width: 100%;
+  margin-top: 100px;
+
+  .mainService__title {
+    font-size: 54px;
+    font-weight: 500;
+    color: $secondary-color;
+    margin-bottom: 50px;
+  }
+
+  .mainService__box {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .mainService1 {
+    width: 260px;
+    height: 250px;
+    max-width: 260px;
+    max-height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      top: 25px;
+    }
+  }
+
+  .mainService2 {
+    width: 260px;
+    height: 250px;
+    max-width: 260px;
+    max-height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: -20px;
+      top: 0;
+    }
+  }
+
+  .mainService3 {
+    flex-grow: 1; /* Element joyni to'ldirish uchun o'sadi */
+    min-width: 260px; /* Minimal kenglikni belgilang */
+    height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+}
+
+  .mainService1a {
+    width: 260px;
+    height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .mainService2a {
+    width: 260px;
+    height: 250px;
+    max-width: 260px;
+    max-height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: -20px;
+      top: 0;
+    }
+  }
+
+  .mainService3a {
+    width: 260px;
+    height: 250px;
+    max-width: 260px;
+    max-height: 250px;
+    box-shadow: -4px 4px 16px 0px #0000001a;
+    background: $color-white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background: $primary-color;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+      transition: box-shadow 0.5s, transform 0.5s;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  .mainService__box-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $color-black;
+    position: relative;
+    z-index: 3;
+  }
+
+  .mainService__about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-between;
+  }
+
+  .mainService__q{
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+  }
+
+  .mainService__r{
+    width: 540px;
+    max-width: 540px;
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #18162DE5;
+
+        margin-bottom: 35px;
+    }
+  }
+}

@@ -505,11 +505,10 @@
   }
 
   .section4__box {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     @media (min-width: 320px) and (max-width: 480px) {
       display: flex;
-      gap: 20px;
     }
 
     .section4__box-circle {
@@ -541,8 +540,11 @@
       max-width: 270px;
       
       @media (min-width: 320px) and (max-width: 480px) {
+        font-size: 16px;
+        font-weight: 700;
         width: 200px;
-      }
+        margin-left: 10px;
+      } 
     }
 
     .section4__box-info {
@@ -553,8 +555,10 @@
       min-width: 270px;
       margin-top: 50px;
 
-      @media (min-width: 320px) and (max-width: 480px) {
-        width: 150px;
+      @media (min-width: 300px) and (max-width: 480px) {
+        font-weight: 14px;
+        margin-top: 10px;
+        margin-left: 10px;
       }
     }
   }

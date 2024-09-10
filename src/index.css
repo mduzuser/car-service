@@ -35,6 +35,10 @@ body {
   }
 }
 
+a {
+  color: #18162D;
+}
+
 .active {
   color: #3579F4;
 }/*# sourceMappingURL=index.css.map */

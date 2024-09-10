@@ -44,7 +44,7 @@ function Header() {
               <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"/service"}>Service</NavLink>
+              <NavLink to={'/service'}>Service</NavLink>
             </li>
             <li>
               <NavLink to={"/contact"}>Contact</NavLink>
@@ -117,7 +117,7 @@ function Header() {
               </li>
 
               <li>
-                <NavLink to={"/serive"}>Services</NavLink>
+                <NavLink to={"/service"}>Services</NavLink>
               </li>
 
               <li>

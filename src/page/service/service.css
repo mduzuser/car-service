@@ -1,1 +1,194 @@
-/*# sourceMappingURL=service.css.map */
+.mainService {
+  width: 100%;
+  margin-top: 100px;
+}
+.mainService .mainService__title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+  margin-bottom: 50px;
+}
+.mainService .mainService__box {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.mainService .mainService1 {
+  width: 260px;
+  height: 250px;
+  max-width: 260px;
+  max-height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService1 img {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.mainService .mainService2 {
+  width: 260px;
+  height: 250px;
+  max-width: 260px;
+  max-height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService2 img {
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.mainService .mainService3 {
+  flex-grow: 1; /* Element joyni to'ldirish uchun o'sadi */
+  min-width: 260px; /* Minimal kenglikni belgilang */
+  height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService3 img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mainService .mainService1a {
+  width: 260px;
+  height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService1a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService1a img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mainService .mainService2a {
+  width: 260px;
+  height: 250px;
+  max-width: 260px;
+  max-height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService2a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService2a img {
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.mainService .mainService3a {
+  width: 260px;
+  height: 250px;
+  max-width: 260px;
+  max-height: 250px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #3579F4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mainService .mainService3a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+.mainService .mainService3a img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.mainService .mainService__box-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  position: relative;
+  z-index: 3;
+}
+.mainService .mainService__about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.mainService .mainService__q p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3579F4;
+  text-transform: uppercase;
+}
+.mainService .mainService__r {
+  width: 540px;
+  max-width: 540px;
+}
+.mainService .mainService__r p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 22, 45, 0.8980392157);
+  margin-bottom: 35px;
+}/*# sourceMappingURL=service.css.map */
