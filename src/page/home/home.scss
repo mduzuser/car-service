@@ -126,6 +126,39 @@
       color: $primary-color;
     }
   }
+
+  .show__box-contacts{
+    width: 226px;
+    height: 67px;
+    max-width: 226px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .show__box-contact{
+    width: 70px;
+    height: 67px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    svg{
+      font-size: 40px;
+      color: $color-white;
+    }
+  }
+
+  .blue{
+    background: $primary-color;
+  }
+
+  .green{
+    background: $color-green;
+  }
 }
 
 // section 2

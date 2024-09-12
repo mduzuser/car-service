@@ -308,4 +308,116 @@
   font-weight: 400;
   color: rgba(24, 22, 45, 0.8980392157);
   margin-bottom: 35px;
+}
+
+.service1a {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: relative;
+}
+.service1a .service1a__text {
+  width: 100%;
+}
+.service1a .service1a__title {
+  font-size: 54px;
+  font-weight: 400;
+  color: #18162D;
+  margin-bottom: 195px;
+}
+.service1a .service1a__button {
+  width: 360px;
+  height: 67px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #3579F4;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.service1a .service1a__button:hover {
+  background: none;
+  border: 2px solid #3579F4;
+  color: #3579F4;
+}
+.service1a .service1a__img {
+  width: 100%;
+  text-align: right;
+  border: 2px solid red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.service1a .service1a__img img {
+  border: 2px solid red;
+}
+
+.service1b {
+  width: 100%;
+}
+.service1b .service1b__title {
+  font-size: 48px;
+  font-weight: 500;
+  color: #18162D;
+  margin-bottom: 35px;
+}
+.service1b .service1b__boxes {
+  display: flex;
+  transition: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service1b .service1b__box {
+  width: 350px;
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 35px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.service1b .service1b__box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.service1c {
+  width: 100%;
+  margin-top: 100px;
+}
+.service1c .service1c__title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+  margin-bottom: 45px;
+}
+.service1c .service1c__boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service1c .service1c__box {
+  width: 350px;
+  height: 100px;
+  max-width: 350px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.service1c .service1c__box p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
 }/*# sourceMappingURL=service.css.map */

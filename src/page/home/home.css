@@ -130,6 +130,33 @@
   border: 2px solid #3579F4;
   color: #3579F4;
 }
+.section1 .show__box-contacts {
+  width: 226px;
+  height: 67px;
+  max-width: 226px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section1 .show__box-contact {
+  width: 70px;
+  height: 67px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.section1 .show__box-contact svg {
+  font-size: 40px;
+  color: #ffffff;
+}
+.section1 .blue {
+  background: #3579F4;
+}
+.section1 .green {
+  background: #28B14E;
+}
 
 .section2 {
   width: 100%;

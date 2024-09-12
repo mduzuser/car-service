@@ -52,6 +52,7 @@ export {default as SvgImg4} from "../img/packages 1.svg"
 export {default as FooterImg} from '../img/footer-img.png'
 export {default as LogoF} from '../img/logo2.png'
 export {default as BarImg} from '../img/Group 109.png'
+export {default as SImg1a} from '../img/Group 17 (1).png'
 //video
 
 export {default as VideoPlayer} from '../video/video.mp4'
