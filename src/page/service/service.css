@@ -420,4 +420,313 @@
   font-size: 22px;
   font-weight: 700;
   color: #000000;
+}
+
+.service2a {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: relative;
+}
+.service2a .service2a__text {
+  width: 100%;
+}
+.service2a .service2a__text .service2a__text-title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+}
+.service2a .service2a__text .service2a__text-info {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 22, 45, 0.8980392157);
+  width: 495px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.service2a .service2a__text .service2a__text-btn {
+  width: 360px;
+  height: 67px;
+  border-radius: 10px;
+  border: none;
+  background: #3579F4;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.service2a .service2a__text .service2a__text-btn:hover {
+  background: none;
+  border: 2px solid #3579F4;
+  color: #3579F4;
+}
+.service2a .service2a__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.service2b {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+.service2b .service2b__titles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service2b .service2b__titles .service2b__title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3579F4;
+}
+.service2b .service2b__titles .service2b__line {
+  width: 70%;
+  background: #3579F4;
+  height: 4px;
+}
+.service2b .service2b__boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.service2b .service2b__boxes .service2b__text-name {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(24, 22, 45, 0.8980392157);
+  width: 417px;
+  margin-bottom: 55px;
+}
+.service2b .service2b__boxes .service2b__text-adjust {
+  font-size: 22px;
+  font-weight: 600;
+  color: #3579F4;
+  margin-bottom: 30px;
+}
+.service2b .service2b__boxes .service2b__text-info {
+  width: 370px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 22, 45, 0.6980392157);
+}
+
+.service3a {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.service3a .service3a__text-title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+}
+.service3a .service3a__text-info {
+  width: 495px;
+  color: rgba(24, 22, 45, 0.8980392157);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.service3a .service3a__text-btn {
+  width: 360px;
+  height: 67px;
+  border-radius: 10px;
+  border: none;
+  background: #3579F4;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.service3a .service3a__text-btn:hover {
+  background: none;
+  border: 2px solid #3579F4;
+  color: #3579F4;
+}
+.service3a .service3a__img {
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+
+.service3b {
+  width: 100%;
+}
+.service3b .service3b__title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+  margin-bottom: 35px;
+}
+.service3b .service3b__boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service3b .service3b__box {
+  width: 540px;
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  margin-bottom: 30px;
+}
+.service3b .service3b__box p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #18162D;
+}
+
+.service4a {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+.service4a .service4a__text-title {
+  font-size: 54px;
+  font-weight: 500;
+  color: #18162D;
+}
+.service4a .service4a__text-info {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 22, 45, 0.8980392157);
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 495px;
+}
+.service4a .service4a__types-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3579F4;
+}
+.service4a .service4a__type {
+  width: 130px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.service4a .service4a__types-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+  width: 460px;
+  max-width: 460px;
+}
+.service4a .service4a__type-img {
+  width: 130px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #F0F0FA;
+  margin-bottom: 10px;
+}
+.service4a .service4a__type-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #18162D;
+}
+.service4a .service4a__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1000px;
+}
+.service4a .service4a__img img {
+  width: 100%;
+}
+
+.service4b {
+  width: 100%;
+  margin-top: 100px;
+}
+.service4b .service4b__box {
+  margin-top: 100px;
+}
+.service4b .service4b__box-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.service4b .service4b__box-name {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3579F4;
+}
+.service4b .service4b__box-line {
+  width: 80%;
+  background: #3579F4;
+  height: 4px;
+}
+.service4b .service4b__box-line2 {
+  width: 70%;
+  background: #3579F4;
+  height: 4px;
+}
+.service4b .service4b__box-body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.service4b .service4b__box-text {
+  margin-bottom: 50px;
+}
+.service4b .service4b__box-title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3579F4;
+  margin-bottom: 10px;
+}
+.service4b .servce4b__box-info {
+  width: 326px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #18162D;
+}
+
+.service4c {
+  width: 100%;
+  margin-top: 100px;
+}
+.service4c .service4c__title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #18162D;
+  margin-bottom: 30px;
+}
+.service4c .service4c__boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service4c .service4c__box {
+  width: 352px;
+  height: 100px;
+  text-align: center;
+  padding: 25px 60px;
+  border-radius: 20px;
+  box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.1019607843);
+  margin-bottom: 50px;
+  transition: all 0.3s;
+}
+.service4c .service4c__box p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #18162D;
 }/*# sourceMappingURL=service.css.map */

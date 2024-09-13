@@ -1,8 +1,13 @@
 import React from 'react'
+import Service2a from './Service2a'
+import Service2b from './Service2b'
 
 function Service2() {
   return (
-    <div>Service2</div>
+    <>
+      <Service2a/>
+      <Service2b/>
+    </>
   )
 }
 

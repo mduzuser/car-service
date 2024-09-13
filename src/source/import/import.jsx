@@ -30,6 +30,17 @@ export {default as Service1A} from '../../page/service/Service1A'
 export {default as Service1B} from '../../page/service/Service1b'
 export {default as Service1C} from '../../page/service/Service1C'
 
+export {default as Service2a} from '../../page/service/Service2a'
+export {default as Service2b} from '../../page/service/Service2b'
+
+export {default as Service3a} from '../../page/service/Service3a'
+export {default as Service3b} from '../../page/service/Service3b'
+
+export {default as Service4a} from '../../page/service/Service4a'
+export {default as Service4b} from '../../page/service/Service4b'
+export {default as Service4c} from '../../page/service/Service4c'
+
+
 
 //images
 export {default as Logo} from '../img/logo.png'
@@ -53,6 +64,21 @@ export {default as FooterImg} from '../img/footer-img.png'
 export {default as LogoF} from '../img/logo2.png'
 export {default as BarImg} from '../img/Group 109.png'
 export {default as SImg1a} from '../img/Group 17 (1).png'
+export {default as S2a} from '../img/image 75.png'
+export {default as S2a1} from '../img/image 113.png'
+export {default as S2a2} from '../img/image 129.png'
+export {default as S3a} from '../img/warehouse 1.png'
+export {default as S4a} from '../img/Group 20.png'
+export {default as S4b1} from '../img/Group 101.png'
+export {default as S4b2} from '../img/Group 100.png'
+export {default as S4b3} from '../img/Group 99.png'
+export {default as S4b4} from '../img/Group 98.png'
+export {default as S4b5} from '../img/Group 97.png'
+export {default as S4b6} from '../img/Group 96.png'
+// service 4 car taypes
+
+export {default as A_car1} from '../img/a-cars (1).png'
+
 //video
 
 export {default as VideoPlayer} from '../video/video.mp4'

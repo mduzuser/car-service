@@ -1,8 +1,15 @@
 import React from 'react'
+import Service4a from './Service4a'
+import Service4b from './Service4b'
+import Service4c from './Service4c'
 
 function Service4() {
   return (
-    <div>Service4</div>
+    <>
+      <Service4a/>
+      <Service4b/>
+      <Service4c/>
+    </>
   )
 }
 
