@@ -4,7 +4,7 @@ import "./footer.scss";
 function FooterForm() {
   return (
     <>
-      <div className="footerFormBg">
+      <div className="footerFormBg" id="contact">
         <div className="container">
           <div className="footerForm">
             <div className="footerForm__form">

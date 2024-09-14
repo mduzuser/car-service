@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
-  Contact,
   Footer,
   Main,
   MainService,
@@ -42,7 +41,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
 
         {/* services */}
