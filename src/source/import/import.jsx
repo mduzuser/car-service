@@ -3,7 +3,6 @@ export {default as Navbar} from '../../common/header/Header'
 export {default as Footer} from '../../common/footer/Footer'
 export {default as Main} from '../../page/home/Home' 
 export {default as Service} from '../../page/service/Service'
-export {default as Contact} from '../../page/contact/Contact'
 export {default as PageNotFound} from '../../page/pageNotFound/PageNotFound'
 export {default as FooterForm} from '../../common/footer/FooterForm'
 
@@ -106,6 +105,40 @@ export {default as SImg5a} from '../img/Group 164.png'
 export {default as S5b1} from '../img/Group 51.png'
 export {default as S5b2} from '../img/Group 50.png'
 
+export {default as SImg6a} from '../img/Group 46.png'
+
+export {default as S6a1} from '../img/a-ships (1).png'
+export {default as S6a2} from '../img/a-ships (2).png'
+export {default as S6a3} from '../img/a-ships (3).png'
+export {default as S6a4} from '../img/a-ships (4).png'
+export {default as S6a5} from '../img/a-ships (5).png'
+export {default as S6a6} from '../img/a-ships (6).png'
+
+export {default as S6b1} from '../img/Group 170.png'
+export {default as S6b2} from '../img/Group 169.png'
+export {default as S6b3} from '../img/Group 49.png'
+
+export {default as SImg7a} from '../img/Group 47.png'
+
+export {default as S7a1} from '../img/a-track (1).png'
+export {default as S7a2} from '../img/a-track (2).png'
+export {default as S7a3} from '../img/a-track (3).png'
+export {default as S7a4} from '../img/a-track (4).png'
+export {default as S7a5} from '../img/a-track (5).png'
+export {default as S7a6} from '../img/a-track (6).png'
+
+
+export {default as S7b1} from '../img/Group 175.png'
+export {default as S7b2} from '../img/Group 176.png'
+
+export {default as s8a} from '../img/dismantling 1.png'
+
+export {default as S8b1} from '../img/Group 106.png'
+export {default as S8b2} from '../img/Group 107.png'
+export {default as S8b3} from '../img/dismantling 2.png'
+export {default as S8b4} from '../img/Group 108.png'
+
+export {default as s9a} from '../img/parts-purchaise 1.png'
 
 // service 4 car taypes
 

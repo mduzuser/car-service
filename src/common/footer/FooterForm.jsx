@@ -4,7 +4,7 @@ import "./footer.scss";
 function FooterForm() {
   return (
     <>
-      <div className="footerFormBg" id="contact">
+      <div id="contact" className="footerFormBg" >
         <div className="container">
           <div className="footerForm">
             <div className="footerForm__form">
@@ -29,12 +29,14 @@ function FooterForm() {
                   required
                 />
 
-                <input
-                  type="text"
-                  placeholder="Message"
-                  className="form__input-message"
-                  required
-                />
+                <textarea 
+                     name="Message"
+                     placeholder="Message"
+                     className="form__input-message"
+                     required
+                >
+
+                </textarea>
 
                 <div className="input__checkbox">
                   <input

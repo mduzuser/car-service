@@ -975,3 +975,397 @@
     }
   }
 }
+
+// service 6a 
+
+.service6a{
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+
+  .service6a__main{
+    margin-bottom: 30px;
+  }
+
+  .service6a__main-title{
+    font-size: 54px;
+    font-weight: 600;
+    color: $secondary-color;
+  }
+
+  .service6a__main-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #18162DE5;
+    width: 495px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+  }
+
+  .service6a__title{
+    font-size: 18px;
+    font-weight: 700;
+    color: $primary-color;
+    margin-bottom: 30px;
+  }
+
+  .service6a__box{
+    width: 460px;
+    max-width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .service6a__type{
+    width: 130px;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    .service6a__type-img{
+      width: 100%;
+      height: 90px;
+      background: $color-button;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+  }
+
+  .service6a__type-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: $secondary-color;
+    margin-top: 10px;
+  }
+
+  .service6a__img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+//service 6b
+
+.service6b{
+  width: 100%;
+
+  .service6b__box-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+
+  .service6b__name{
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+
+  .service6b__box-line{
+    width: 70%;
+    background: $primary-color;
+    height: 4px;
+  }
+
+  .service6b__box-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .service6b__info{
+    font-size: 22px;
+    font-weight: 400;
+    color: $secondary-color;
+    width: 350px;
+  }
+
+}
+
+
+//service 7b
+.service7b{
+  width: 100%;
+
+  .service7b__box-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+
+  .service7b__name{
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+
+  .service7b__box-lines{
+    width: 60%;
+    background: $primary-color;
+    height: 4px;
+  }
+
+  .service7b__box-line{
+    width: 70%;
+    background: $primary-color;
+    height: 4px;
+  }
+
+  .service7b__box-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .service7b__info{
+    font-size: 22px;
+    font-weight: 400;
+    color: $secondary-color;
+    width: 350px;
+  }
+
+}
+
+
+// service 8a 
+
+.service8a{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  position: relative;
+
+  
+  .service8a__main-title{
+    font-size: 54px;
+    font-weight: 600;
+    color: $secondary-color;
+  }
+
+  .service8a__main-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: #18162DE5;
+    width: 495px;
+    margin-top: 25px;
+  }
+
+  .service8a__main-btn {
+    width: 360px;
+    height: 67px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background: $primary-color;
+    font-size: 16px;
+    font-weight: 700;
+    color: $color-white;
+    cursor: pointer;
+    transition: background 0.5s;
+
+    &:hover {
+      background: none;
+      border: 2px solid $primary-color;
+      color: $primary-color;
+    }
+  }
+
+  .show__box-contacts{
+    width: 226px;
+    height: 67px;
+    max-width: 226px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .show__box-contact{
+    width: 70px;
+    height: 67px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    svg{
+      font-size: 40px;
+      color: $color-white;
+    }
+  }
+
+  .blue{
+    background: $primary-color;
+  }
+
+  .green{
+    background: $color-green;
+  }
+
+  .service8a__img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+// seervice 8b
+
+.service8b{
+  width: 100%;
+  margin-top: 100px;
+
+  .service8b__title{
+    font-size: 54px;
+    font-weight: 500;
+    color: $secondary-color;
+    margin-bottom: 35px;
+  }
+
+  .service8b__box-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+
+  .service8b__name{
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+
+  .service8b__box-line{
+    width: 70%;
+    background: $primary-color;
+    height: 4px;
+  }
+
+  .service8b__box-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .service8b__info{
+    font-size: 22px;
+    font-weight: 400;
+    color: $secondary-color;
+    width: 600px;
+  }
+}
+
+//service 8c
+
+.service8c{
+  width: 100%;
+  margin-top: 100px;
+
+  .service8c__title{
+    width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    color: $secondary-color;
+  }
+
+  .service8c__boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .service8c__box{
+    width: 352px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: -4px 4px 16px 0px #0000001A;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 30px;
+    text-align: center;
+    cursor: pointer;
+
+    p{
+      font-size: 22px;
+      font-weight: 600;
+      color: $secondary-color;
+    }
+  }
+}
+
+// service 9b
+
+.service9b{
+  width: 100%;
+  margin-top: 250px;
+
+  .service9b__title{
+    font-size: 54px;
+    font-weight: 500;
+    color: $secondary-color;
+    margin-bottom: 35px;
+  }
+
+  .service9b__boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .service9b__box{
+    width: 352px;
+    height: 200px;
+    max-height: 200px;
+    border-radius: 20px;
+    box-shadow: -4px 4px 16px 0px #0000001A;
+    margin-bottom: 30px;
+    padding: 25px 30px;
+    text-align: left;
+    cursor: pointer;
+    transition:  all .3s;
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      scale: 1.1;
+    }
+  }
+
+  .service9b__box-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  .service9b__box-info{
+    font-size: 16px;
+    font-weight: 400;
+    color: $secondary-color;
+  }
+}

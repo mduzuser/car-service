@@ -5,6 +5,7 @@
   background: #3579F4;
   padding: 100px 0;
   margin-top: 100px;
+  border-radius: 50px 50px 0 0;
 }
 .footerFormBg .footerForm {
   width: 100%;
@@ -107,6 +108,13 @@
   background: #5591ff;
   outline: none;
   font-size: 16px;
+  color: rgba(255, 255, 255, 0.9019607843);
+  resize: none;
+}
+.footerFormBg .form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.9019607843);
+}
+.footerFormBg .form textarea::placeholder {
   color: rgba(255, 255, 255, 0.9019607843);
 }
 .footerFormBg .form .input__checkbox {

@@ -46,8 +46,8 @@ function Header() {
             <li>
               <NavLink to={'/service'}>Service</NavLink>
             </li>
-            <li>
-              <a href="#contact">Contact</a>
+            <li >
+               <NavLink>Contact</NavLink>
             </li>
           </ul>
 

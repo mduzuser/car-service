@@ -1,8 +1,15 @@
 import React from 'react'
+import Service8a from './Service8a'
+import Service8b from './Service8b'
+import Service8c from './Service8c'
 
 function Service8() {
   return (
-    <div>Service8</div>
+    <>
+       <Service8a/>
+       <Service8b/>
+       <Service8c/>
+    </>
   )
 }
 
